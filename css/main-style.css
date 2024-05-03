@@ -28,22 +28,28 @@ body {
     inset -2px -2px 3px rgb(0 0 0 / 60%);
 }
 */
-.logo-margin{
+
+.align-h4 {
+  text-align: center;
+}
+
+.logo-margin {
   float: left;
 }
 
-.style-buton  {
-    border: none; 
-    color: white;
-    background-color: #04AA6D;
-    padding: 14px 28px; 
-    cursor: pointer; 
-    border-radius: 5px; 
-    display: inline-flex;
-  }
+.style-buton {
+  border: none;
+  color: white;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-flex;
+}
 
 .styled-buton:hover {
-  background-color: #46a049;;
+  background-color: #46a049;
+  ;
 }
 
 /*.
@@ -54,10 +60,11 @@ styled-buton:active {
 }
 */
 
-.center-ubication{
+.center-ubication {
   text-align: center;
 }
-.mapa-google{
+
+.mapa-google {
   width: 100%;
   height: 400px;
   margin: 0 auto;
@@ -66,11 +73,11 @@ styled-buton:active {
 /*
   Justify <p>
 */
-.justify-content{
+.justify-content {
   text-align: center;
 }
 
-.logo-navbar{
+.logo-navbar {
   margin: 0 auto;
 }
 
@@ -582,6 +589,12 @@ footer {
   height: 65vh;
 }
 
+.item-image{
+  margin-top: 15px;
+  margin-bottom: -30px;
+  border: none;
+}
+
 .hacemos-info h3 {
   color: #d9d9d9;
   font-style: italic;
@@ -589,6 +602,7 @@ footer {
 }
 
 .hacemos-info .item {
+  text-align: center;
   display: block;
   width: 100%;
 }
@@ -603,12 +617,11 @@ footer {
   color: #d9d9d9;
   display: inline-block;
   vertical-align: top;
+  font-size: 30px;
 }
 
 .owl-carousel .owl-item img,
 .hacemos-item img {
-  border: 3px solid #ffffff;
-  border-radius: 100px;
   width: 60px;
   height: 60px;
   margin-right: 10px;
@@ -670,11 +683,11 @@ footer {
 }
 
 .copyright-text {
-    background-color: #333333;
-    color: white;
-    padding: 20px;
-    text-align: center; 
-    margin: 0 auto;
+  background-color: #333333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 
@@ -724,7 +737,7 @@ footer {
     padding-bottom: 20px;
   }
 
-  
+
 
   .custom-navbar {
     background: #ffffff;
@@ -778,7 +791,7 @@ footer {
     width: 85%;
   }
 
- 
+
   .online-form .form-control {
     display: block;
     margin: 20px auto;
