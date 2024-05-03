@@ -48,8 +48,8 @@ body {
 }
 
 .styled-buton:hover {
+  color: #ffffff;
   background-color: #46a049;
-  ;
 }
 
 /*.
@@ -382,6 +382,10 @@ footer {
 
   .top-nav-collapse .nav .section-btn a {
     color: #ffffff;
+  }
+
+  #color-buton{
+    color: white;
   }
 }
 
