@@ -150,9 +150,10 @@ a:focus {
   cursor: pointer;
   background: #202020;
 }
-
+/* EDITADO AQUI */
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+  
   text-align: center;
 }
 
@@ -571,13 +572,15 @@ footer {
   margin: 0;
   padding: 0;
 }
-
+/* EDITADO AQUI */
 #hacemos .section-title {
-  padding-bottom: 0;
+  padding: 0 20px;
+
 }
 
 #hacemos h1 {
   color: #ffffff;
+  margin-top: -20px;
 }
 
 .hacemos-image {
@@ -737,9 +740,7 @@ footer {
 
 @media screen and (max-width: 767px) {
 
-  .section-title {
-    padding-bottom: 20px;
-  }
+  
 
 
 
@@ -810,4 +811,9 @@ footer {
   .hacemos-info {
     height: 65vh;
   }
+
+  .hacemos-info{
+    height: 75vh;
+  }
+
 }
