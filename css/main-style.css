@@ -6,6 +6,37 @@ body {
   background: #f9f9f9;
 }
 
+#justify2{
+  text-align: justify;
+}
+
+.sitios-de-interes{
+  
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.sitios{
+  
+  padding: 1em;
+  background-color: #333333;
+}
+#sep{
+  color: #ffffff;
+  padding-right: 15px;
+}
+#sep:hover{
+  color: #757575;
+}
+
+#color-buton{
+  color: white;
+}
+.style-buton:hover{
+  background-color: #1c661e;
+}
+
 /*
 .style-buton {
   border: 0;
@@ -49,16 +80,9 @@ body {
 
 .styled-buton:hover {
   color: #ffffff;
-  background-color: #46a049;
+  background-color: #1c661e;
 }
 
-/*.
-styled-buton:active {
-  box-shadow:
-    inset -2px -2px 3px rgb(255 255 255 / 60%),
-    inset 2px 2px 3px rgb(0 0 0 / 60%);
-}
-*/
 
 .center-ubication {
   text-align: center;
@@ -384,9 +408,7 @@ footer {
     color: #ffffff;
   }
 
-  #color-buton{
-    color: white;
-  }
+  
 }
 
 
@@ -714,6 +736,8 @@ footer {
   .home-info {
     margin-top: 0;
   }
+
+  
 }
 
 
@@ -738,6 +762,8 @@ footer {
   footer {
     padding-bottom: 40px;
   }
+
+
 }
 
 
@@ -793,6 +819,7 @@ footer {
 }
 
 
+
 @media screen and (max-width: 480px) {
 
   .online-form input[type="email"],
@@ -822,5 +849,8 @@ footer {
     
     
   }
+
+  
+  
 
 }
