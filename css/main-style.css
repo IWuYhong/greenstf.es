@@ -770,9 +770,6 @@ footer {
 
 @media screen and (max-width: 767px) {
 
-  
-
-
 
   .custom-navbar {
     background: #ffffff;
@@ -815,7 +812,6 @@ footer {
 
   .hacemos-info {
     padding: 30px;
-    
   }
 }
 
@@ -842,16 +838,9 @@ footer {
   .hacemos-image,
   .hacemos-info {
     height: 65vh;
-    
   }
 
   .hacemos-info{
-    height: 75vh;
-    
-    
+    height: 75vh; 
   }
-
-  
-  
-
 }
