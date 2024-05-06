@@ -153,7 +153,6 @@ a:focus {
 /* EDITADO AQUI */
 .section-title {
   padding-bottom: 60px;
-  
   text-align: center;
 }
 
@@ -814,6 +813,7 @@ footer {
 
   .hacemos-info{
     height: 75vh;
+    
   }
 
 }
